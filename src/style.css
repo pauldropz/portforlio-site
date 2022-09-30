@@ -35,5 +35,26 @@ html {
 
 
 
---pc-width: 75%
+--pc-width: 75%;
+--tab-width: 90%;
+--phone-width: 100%;
+}
+
+body::before {
+
+    content: "";
+    position: fixed;
+    height: 12.5rem;
+    width: 12.5rem;
+    background: rgb(0, 255, 255);
+    filter: blur(8.75rem);
+}
+
+
+
+body::after {
+
+
+
+    
 }
