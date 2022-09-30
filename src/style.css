@@ -59,7 +59,19 @@ body::after {
     content: "";
     position: fixed;
     top: 12.5rem;
-    left: 5 ;
+    left: 250px;
+    height: 200px;
+    width: 200px;
+    background: rgb(183, 0, 225);
+    filter: blur(140px);
+}
 
-
+.bg-circle1 {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 200px;
+    width: 200px;
+    background: rgb(0, 255, 255);
+    filter: blur(140px);
 }
