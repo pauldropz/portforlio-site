@@ -1,0 +1,20 @@
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    transform: translateY(-100%);
+    opacity: 0;
+    backdrop-filter: blur(20px);
+    animation: fade-in 1s ease 1 forwards;
+}
+
+
+@keyframes fade-in {
+    0%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
