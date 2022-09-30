@@ -1,0 +1,39 @@
+/* @import url("https://fonts.googleapis.com/css2?family=inter:wght@300&display=swap"); */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+body {
+
+
+    background: rgb(2 2 26);
+    min-height: 100vh;
+    font-family: "inter", sans-serif;
+    animation: move 1s linear infinite forwards;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+:root {
+--color-pri: red;
+--color-pri-light: rgba (82 188 250 0.445);
+--color-sec: rgb(172 17 223);
+
+
+
+--pc-width: 75%
+}
