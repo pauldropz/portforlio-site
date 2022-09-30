@@ -12,23 +12,23 @@ function Navbar () {
         <div className="navigation">
 
                 <a href="#home">
-                        <AiOutLineHome className="icon active-nav" />
+                        <AiOutLineHome className="icon" />
                 </a>
 
                 <a href="#home">
-                        <AiOutLineHome className="icon active-nav" />
+                        <AiOutLineHome className="icon" />
                 </a>
 
                 <a href="#home">
-                        <TiGroupOutline className="icon active-nav" />
+                        <TiGroupOutline className="icon" />
                 </a>
 
                 <a href="#home">
-                        <BiMessageRoundedDots className="icon active-nav" />
+                        <BiMessageRoundedDots className="icon" />
                 </a>
 
                 <a href="#home">
-                        <BsArrowDownCircle className="icon active-nav" />
+                        <BsArrowDownCircle className="icon" />
                 </a>
 
 
@@ -36,5 +36,17 @@ function Navbar () {
         </div>
     )
 }
+
+
+let Icons = document.querySelectorAll (".navigation .icon")
+Icons.forEach( icon => {
+            icon.addEventListener( "click", () => {
+
+            }
+
+            )
+    }
+);
+
 
 export default Navbar;
