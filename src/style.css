@@ -75,3 +75,19 @@ body::after {
     background: rgb(0, 255, 255);
     filter: blur(140px);
 }
+
+.bg-circle2 {
+position: fixed;
+bottom: 100px;
+right: 250px;
+height: 200px;
+width: 200px;
+background: rgb(183, 0, 225);
+filter: blur(140px);
+}
+
+
+
+.container {
+    
+}
