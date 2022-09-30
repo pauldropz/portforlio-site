@@ -54,7 +54,10 @@ body::before {
 
 body::after {
 
+    content: "";
+    position: fixed;
+    top: 12.5rem;
+    left: 5 ;
 
 
-    
 }
