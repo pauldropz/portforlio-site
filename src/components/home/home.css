@@ -61,9 +61,52 @@
 .home-container .logo .main-img.main-img.active .circle {
     opacity: 1;
 }
+
+
+
 .home-container .logo .main-img.main-img.active .circle:nth-child(1){
     background:url(../props/html.png);
     background-size: cover;
-    background-size: ;
+    background-position: center;
+    position: absolute;
+    transform: translateY(-210%);
+}
 
+.home-container .logo .main-img.main-img.active .circle:nth-child(2){
+    background:url(../props/css.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate (150%, -150%);
+}
+
+.home-container .logo .main-img.main-img.active .circle:nth-child(3){
+    background:url(../props/js.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate (210%);
+
+}
+.home-container .logo .main-img.main-img.active .circle:nth-child(4){
+    background:url(../props/bootstrap.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate (150%, 150%);
+}
+.home-container .logo .main-img.main-img.active .circle:nth-child(5){
+    background:url(../props/react.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate (210%);
+}
+
+.home-container .logo .main-img.main-img.active .circle:nth-child(5){
+    background:url(../props/react.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate (210%);
 }
