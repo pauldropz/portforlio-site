@@ -1,6 +1,10 @@
 import "/.home.css";
 
  import img "../props/img2.jpg";
+
+ import Buttons from "../button/button";
+
+ 
  import { BsMouse } from "react-icons/bs";
 
 
@@ -29,7 +33,10 @@ import "/.home.css";
                 <BsMouse className="scroll" />
                 <hr />
 
-                    <h2><span>About Me</span><br />                
+                </a>
+
+                    <h2>
+                    <span>About Me</span><br />                
                         <p>
                         lorem loremlorkm dfcbwncvhwfew cegwvcetwvfcew cewvtewcte3yfcv3 cv3yt3tc3tc
                         ctegfceycyece c3ycfgyc3fcyt34f 3fdytd6y4g34 fy4g3yfb43f34f34f
@@ -38,7 +45,8 @@ import "/.home.css";
                               
                     </h2>
 
-                </a>
+                    <Buttons />
+
             </div>
     );
  }
