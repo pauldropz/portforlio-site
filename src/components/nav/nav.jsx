@@ -12,11 +12,11 @@ function Navbar () {
         <div className="navigation">
 
                 <a href="#home">
-                        <AiOutLineHome className="icon" />
+                        <AiOutlineHome className="icon" />
                 </a>
 
                 <a href="#home">
-                        <AiOutLineHome className="icon" />
+                        <AiOutlineUser className="icon" />
                 </a>
 
                 <a href="#home">
@@ -41,12 +41,13 @@ function Navbar () {
 let Icons = document.querySelectorAll (".navigation .icon")
 Icons.forEach( icon => {
             icon.addEventListener( "click", () => {
-
-            }
-
-            )
-    }
-);
-
-
+                        changeActive();
+                    icon.classList.add("active-nav");
+            })
+    });
+function changeActive() {
+    Icons.forEach(icon => {
+        icon.classList.remove ("active-nav")
+    })
+}
 export default Navbar;
