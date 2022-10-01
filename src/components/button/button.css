@@ -35,7 +35,7 @@
         background-color: var(--color-sec);
     }
 
-.button-container .btn.pri::after {
+.button-container .btn.pri::before {
     position: absolute;
     content: "";
     height: 100%;
@@ -43,7 +43,29 @@
     left: 0;
     transition: 0.2s ease;
 }
+.button-container .btn.pri::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    left: 0;
+    transition: 0.4s ease;
+
+}
 
 
+.button-container .btn.pri:hover::before {
+    position: absolute;
+    color: "";
+    height:100%;
+    width: 65%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.274);
 
+}
+ 
 
+.button-container .btn.pri:hover::after {
+
+    
+}
