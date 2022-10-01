@@ -67,5 +67,42 @@
 
 .button-container .btn.pri:hover::after {
 
+    position: absolute;
+    color: "";
+    height:100%;
+    width: 50%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.89);
+
     
+}
+.button-container .btn.sec {
+    background-color: var (--color-pri-light);    
+}
+.button-container .btn.sec:hover {
+    border: 2px solid var(--color-pri);
+    background-color: transparent;
+    
+}
+.button-container .btn.sec::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 65%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: 0.2s ease; 
+}
+.button-container .btn.sec::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.89);
+    transition: 0.4s ease; 
+}
+.button-container .btn.sec:hover {
+    
+  
 }
