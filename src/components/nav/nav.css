@@ -21,9 +21,6 @@
     }
 }
 
-
-
-
 .navigation a {
     position: relative;
     background-color: rgba(0, 0, 0, 0.377);
@@ -43,9 +40,12 @@
 
 }
 
-
-
 .navigation .icon:hover {
     fill: rgba(88, 117, 248, 0.151);
     border: 2px solid rgba(88, 117, 246, a);
+}
+.navigation .icon.active-nav:hover{
+    fill: rgb(88, 117, 248);
+    border: 2px solid rgb(88, 117, 248);
+ 
 }

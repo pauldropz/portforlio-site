@@ -1,5 +1,7 @@
 import Header from "./components/header/header";
 
+import Navbar from "./components/nav/nav";
+
 
 function App () {
   return (
