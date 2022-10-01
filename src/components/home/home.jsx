@@ -29,8 +29,9 @@ import "/.home.css";
                 <BsMouse className="scroll" />
                 <hr />
 
-                    <h2><span>About Me</span></h2>
-                    
+                    <h2><span>About Me</span>
+                    </h2>
+
                 </a>
             </div>
     );
