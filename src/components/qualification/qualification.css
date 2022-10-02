@@ -81,3 +81,24 @@
     background-size: 60px;
     
 }
+
+
+
+.qualifications-container .qualification .content.c-plus-plus {
+    background: url(../props/c-plus-plus.png);
+    background-position: center;
+    background-size: 60px;
+    
+}
+
+
+
+
+.qualifications-container .qualification .content.c-sharp {
+    background: url(../props/c-sharp.png);
+    background-position: center;
+    background-size: 60px;
+    
+}
+
+c-plus-plus
