@@ -19,3 +19,8 @@
     color: var(--color-pri);
 
 }
+
+.contact-container .contact-links {
+    position: relative;
+    display: flex;
+}
