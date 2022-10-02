@@ -25,18 +25,18 @@ function Footer () {
                         </a>
 
                         <a href="#">
-                            <BsInstagram className="social" />
+                            <FaFacebookF className="social" />
                         </a>
                         <a href="#">
-                            <BsInstagram className="social" />
-                        </a>
-
-                        <a href="#">
-                            <BsInstagram className="social" />
+                            <TiSocialDribble className="social" />
                         </a>
 
                         <a href="#">
-                            <BsInstagram className="social" />
+                            <TiSocialYoutube className="social" />
+                        </a>
+
+                        <a href="#">
+                            <TiSocialGithub className="social" />
                         </a>
 
   
@@ -48,3 +48,5 @@ function Footer () {
 
     );
 }
+
+export default Footer;
