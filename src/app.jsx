@@ -6,6 +6,8 @@ import Home from "./components/home/home";
 
 import About from "./components/about/about";
 
+import Members from "./components/members/members";
+
 
 
 
