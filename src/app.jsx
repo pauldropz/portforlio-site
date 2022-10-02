@@ -8,6 +8,8 @@ import About from "./components/about/about";
 
 import Members from "./components/members/members";
 
+import Contact from "./components/contact/contact";
+
 
 
 
