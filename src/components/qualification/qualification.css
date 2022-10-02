@@ -101,4 +101,9 @@
     
 }
 
-c-plus-plus
+.qualifications-container .qualification .content.kotlin {
+    background: url(../props/kotlin.png);
+    background-position: center;
+    background-size: 60px;
+    
+}
