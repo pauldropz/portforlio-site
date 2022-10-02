@@ -54,3 +54,8 @@
     transition: background .2s ease;
 
 }
+
+.social-links .social:hover {
+    background: rgba(255, 255, 255, 0.363);
+    fill: var(--color-pri);
+}
