@@ -10,6 +10,8 @@ import Members from "./components/members/members";
 
 import Contact from "./components/contact/contact";
 
+import Footer from "./components/footer/footer";
+
 
 
 
