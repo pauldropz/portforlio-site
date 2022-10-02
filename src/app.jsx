@@ -15,13 +15,22 @@ import Footer from "./components/footer/footer";
 
 
 
-function App () {
+function webContent () {
   return (
-    <div className='container'>
-              My Portforlio Website
-    </div>
-    
-  )
-}
+      <>
+        <div className="bg-circle1"></div>
+        <div className="bg-circle2"></div>
 
-export default App;
+        <Header />
+        <Navbar />
+        <Home />
+        <About />
+        <Members />
+        <Contact />
+        <Footer />
+
+
+      </>
+  );
+}
+export default webContent;
