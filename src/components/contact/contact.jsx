@@ -1,4 +1,6 @@
 import "./contact.css"
+
+
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineWhatsapp } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
@@ -35,6 +37,4 @@ function Contact () {
 }
 
 export default Contact;
-
-
 
