@@ -4,6 +4,8 @@ import Navbar from "./components/nav/nav";
 
 import Home from "./components/home/home";
 
+import About from "./components/about/about";
+
 
 function App () {
   return (
