@@ -40,4 +40,44 @@
 .qualifications-container .qualification h1 {
     font-size: 20px;
     text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.qualifications-container .qualification .content.html {
+    background: url(../props/html.png);
+    background-position: center;
+    background-size: 60px;
+}
+
+
+.qualifications-container .qualification .content.css {
+    background: url(../props/css.png);
+    background-position: center;
+    background-size: 60px;
+    
+}
+
+
+
+.qualifications-container .qualification .content.javascript {
+    background: url(../props/js.jpg);
+    background-position: center;
+    background-size: 90px;
+    
+}
+
+
+.qualifications-container .qualification .content.bootstrap {
+    background: url(../props/css.bootstrap);
+    background-position: center;
+    background-size: 60px;
+    
+}
+
+
+.qualifications-container .qualification .content.react {
+    background: url(../props/react.png);
+    background-position: center;
+    background-size: 60px;
+    
 }
