@@ -11,3 +11,11 @@
 
 
 
+.contact-container h1 {
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: "Open Sans Condense";
+    font-weight: 400;
+    color: var(--color-pri);
+
+}
