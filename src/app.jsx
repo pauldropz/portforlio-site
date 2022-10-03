@@ -12,6 +12,8 @@ import Contact from "./components/contact/contact";
 
 import Footer from "./components/footer/footer";
 
+import Buttons from "./components/button/button";
+
 
 
 

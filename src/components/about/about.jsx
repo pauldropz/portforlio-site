@@ -1,4 +1,4 @@
-import ".about.css/";
+import "./about.css";
 
 import Qualification from "../qualification/qualification";
 

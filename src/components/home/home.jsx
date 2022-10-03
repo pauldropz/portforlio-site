@@ -1,6 +1,6 @@
 import "/.home.css";
 
- import img "../props/img2.jpg";
+//  import img "../props/img2.jpg";
 
  import Buttons from "../button/button";
 

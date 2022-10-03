@@ -1,6 +1,10 @@
-import "/button.css";
+import   "./button.css"
 
-function Buttons () {
+
+
+
+
+const Button  = () => {
     return (
         <div className="button-container">
 
@@ -17,4 +21,4 @@ function Buttons () {
 
     );
 }
-export default Buttons;
+export default Button;
