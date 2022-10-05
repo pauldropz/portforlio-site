@@ -80,18 +80,6 @@
     transform: translate (150%, -150%);
 }
 
-.home-container .logo .main-img.main-img.active .circle:nth-child(3){
-    background:url(../props/js.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    transform: translate (210%);
-
-}
-
-
-
-
 
 
 
