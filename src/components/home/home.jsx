@@ -4,9 +4,6 @@ import "/.home.css";
  import Buttons from "../button/button";
 
  
-//  import { BsMouse } from "react-icons/bs";
-
-
 
 
  function Home () {
@@ -24,7 +21,6 @@ import "/.home.css";
                         <span className="circle"></span>
                     </div>
 
-                        {/* <img src={ img } alt="" /> */}
                 </div>
                 <a href="#footer" className="scroll-down">
                 <hr />
