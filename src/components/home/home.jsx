@@ -1,6 +1,5 @@
 import "/.home.css";
 
-//  import img "../props/img2.jpg";
 
  import Buttons from "../button/button";
 
@@ -25,7 +24,7 @@ import "/.home.css";
                         <span className="circle"></span>
                     </div>
 
-                        <img src={ img } alt="" />
+                        {/* <img src={ img } alt="" /> */}
                 </div>
                 <a href="#footer" className="scroll-down">
                 <hr />
@@ -51,8 +50,8 @@ import "/.home.css";
             </div>
     );
  }
-//  const toggle = document.querySelector (".main-img");
-//  toggle.addEventListener ("click", () => {
-//      toggle.classList.toggle("active")
-//     })
+ const toggle = document.querySelector (".main-img");
+ toggle.addEventListener ("click", () => {
+     toggle.classList.toggle("active")
+    })
 export default Home;

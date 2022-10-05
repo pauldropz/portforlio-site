@@ -1,4 +1,4 @@
-.home-container {
+* .home-container {
     position: relative;
     min-height: 100vh;
     padding: 50px 40px;
@@ -209,23 +209,3 @@
     transform: rotate(-90deg);
     font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
