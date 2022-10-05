@@ -127,13 +127,7 @@
     transform: translate (-210); 
 }  
 
-.home-container .logo .main-img.main-img.active .circle:nth-child(8){
-    background:url(../props/c-sharp.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    transform: translate (-150%, -150%); 
-}  
+
 
 
 
