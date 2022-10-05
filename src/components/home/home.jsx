@@ -4,7 +4,7 @@ import "/.home.css";
  import Buttons from "../button/button";
 
  
- import { BsMouse } from "react-icons/bs";
+//  import { BsMouse } from "react-icons/bs";
 
 
 
