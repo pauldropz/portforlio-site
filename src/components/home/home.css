@@ -72,14 +72,6 @@
     transform: translateY(-210%);
 }
 
-.home-container .logo .main-img.main-img.active .circle:nth-child(2){
-    background:url(../props/css.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    transform: translate (150%, -150%);
-}
-
 
 
 
