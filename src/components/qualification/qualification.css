@@ -43,12 +43,6 @@
     margin-top: 20px;
 }
 
-.qualifications-container .qualification .content.html {
-    background: url(../props/html.png);
-    background-position: center;
-    background-size: 60px;
-}
-
 
 .qualifications-container .qualification .content.css {
     background: url(../props/css.png);
