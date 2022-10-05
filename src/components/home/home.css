@@ -103,20 +103,8 @@
     transform: translate (210%);
 }
 
-.home-container .logo .main-img.main-img.active .circle:nth-child(6){
-    background:url(../props/kotlin.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    transform: translate (-150%, 150%); 
-}
-.home-container .logo .main-img.main-img.active .circle:nth-child(7){
-    background:url(../c-plus-plus/.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    transform: translate (-210); 
-}  
+
+
 
 
 
