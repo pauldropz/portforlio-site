@@ -17,7 +17,7 @@ import Buttons from "./components/button/button";
 
 
 
-function webContent () {
+function app () {
   return (
       <>
         <div className="bg-circle1"></div>
@@ -35,4 +35,4 @@ function webContent () {
       </>
   );
 }
-export default webContent;
+export default App;
