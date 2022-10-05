@@ -119,14 +119,6 @@
 }  
 
 
-.home-container .logo .main-img.main-img.active .circle:nth-child(7){
-    background:url(../c-plus-plus/.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    transform: translate (-210); 
-}  
-
 
 
 
