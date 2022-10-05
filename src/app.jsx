@@ -30,6 +30,7 @@ function app () {
         <Members />
         <Contact />
         <Footer />
+        <Buttons />
 
 
       </>
