@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: background .3s ease, transform .2s ease;;
+    /* transition: background .3s ease, transform .2s ease;; */
 }
 
 .contact-container .contact:hover {
