@@ -64,16 +64,6 @@
 
 
 
-.home-container .logo .main-img.main-img.active .circle:nth-child(1){
-    background:url(../props/html.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    transform: translateY(-210%);
-}
-
-
-
 
 .home-container img {
     position: absolute;
