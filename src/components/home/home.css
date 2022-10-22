@@ -98,17 +98,7 @@
 }
 
 
-.scroll-down {
-    transform: rotate(90deg);
-    position: absolute;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-}
-
+g
 .scroll-down hr {
     background-color: blue;
     width: 20px;
