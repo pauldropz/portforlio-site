@@ -64,17 +64,6 @@
 
 
 
-
-.home-container img {
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border: 3px solid rgb(108, 161, 197);
-    opacity: fade-in 1s ease 1 0.5s forwards;
-}
-
-
 @keyframes fade-in {
     to {
         transform: translate(0);
