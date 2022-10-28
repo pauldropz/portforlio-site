@@ -9,6 +9,9 @@ const Button  = () => {
         <div className="button-container">
 
         <a href="" className="btn pri">
+        <div>
+            <p>Button part</p>
+        </div>
 
             Learn more
 
