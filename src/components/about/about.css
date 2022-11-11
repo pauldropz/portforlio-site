@@ -1,11 +1,11 @@
 .about-container {
     position: relative;
-    display: flex;
+    display: flex; 
     justify-content: start;
     align-items: flex-start;
     min-height: 100vh;
     margin-top: 100px;
-    padding: 50px;
+    padding: 60px;
     overflow-x: hidden;
     backdrop-filter: blur(20px);
 }
