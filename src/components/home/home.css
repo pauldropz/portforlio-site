@@ -109,9 +109,3 @@ g
     text-transform: capitalize;
     font-weight: 100;
 }
-
-
-.scroll-down .scroll {
-    transform: rotate(-90deg);
-    font-size: 10px;
-}
